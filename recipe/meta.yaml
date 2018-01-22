@@ -10,8 +10,8 @@ package:
 source:
   fn: tokenizers_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/tokenizers_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/tokenizers/tokenizers_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/tokenizers_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/tokenizers/tokenizers_{{ version }}.tar.gz
   sha256: 693e19e32605f4c66a51b1eb84258a973ac2fe1d2f919b28e66944721aab9ae1
 
 
